@@ -1,35 +1,37 @@
 # X-Clone (HTML + Tailwind CSS)
 X (Twitter) UI built with HTML + Tailwind CSS
 
-![X Clone screenshot](https://github.com/NeerajSaini271/X-Clone-HTML-Tailwind-CSS-/blob/f9a49116518b38c8d3380471090259a4f624a905/img/X%20Clone.png)
+![X Clone screenshot](img/X%20Clone.png)
 
 **Live demo:** https://x-clone-bm.netlify.app/
 
 ## Summary
-A responsive front-end replica of the X (Twitter) homepage built with HTML and Tailwind CSS (Play CDN). This project demonstrates layout using Tailwind utility classes and responsive design using Tailwind breakpoints.
+This is a front-end replica of the X (formerly Twitter) homepage UI, built using **HTML5** and **Tailwind CSS** (via Play CDN). It demonstrates layout structure, responsive utility classes, and a clean, mobile-first approach.
 
 ## Features
-- Header, tweet composer, timeline, and sidebar
-- Responsive layout using Tailwind utility classes
-- Uses Tailwind Play CDN — no local build required
+- Header, sidebar, main timeline, tweet composer, and footer — visually aligned with X’s UI  
+- Responsive layout using Tailwind’s breakpoints and utility classes  
+- Uses Tailwind Play CDN (no local build) for rapid prototyping  
 
-## Tech stack
-- HTML5
-- Tailwind CSS (Play CDN)
+## Tech Stack
+- HTML5  
+- Tailwind CSS (Play CDN)  
+- (Future option: Tailwind local build & purge)
 
-## Getting started
-1. Clone or download the repo.
-2. Open `index.html` in your browser.
+## Live Demo
+[https://x-clone-bm.netlify.app/](https://x-clone-bm.netlify.app/)
 
-> **Using the Tailwind Play CDN**  
-> This repo uses the Play CDN (`<script src="https://cdn.tailwindcss.com"></script>`), which is excellent for quick prototypes. For production, build Tailwind to remove unused CSS (see below).
+## Getting Started
 
-## Production (optional) — build Tailwind locally
-If you want to convert this to a production build and remove unused CSS:
-1. `npm init -y`
-2. `npm install -D tailwindcss postcss autoprefixer`
-3. `npx tailwindcss init -p`
-4. Update `tailwind.config.js` with your content paths and run `npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify`
-5. Replace CDN reference with compiled `dist/output.css`.
+1. Clone or download this repository.  
+2. Ensure the `img/` folder contains `X Clone.png`.  
+3. Open `index.html` in your browser.
 
-## Project structure
+Because it uses the Tailwind CDN, you don’t need Node or build tools to see the UI.
+
+## Tailwind Play CDN usage
+
+This project includes a `<script>` tag like:
+
+```html
+<script src="https://cdn.tailwindcss.com"></script>
