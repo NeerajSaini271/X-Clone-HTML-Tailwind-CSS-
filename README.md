@@ -1,7 +1,7 @@
 # X-Clone (HTML + Tailwind CSS)
 X (Twitter) UI built with HTML + Tailwind CSS
 
-![X Clone screenshot](img/X Clone.png)
+![X Clone screenshot](https://github.com/NeerajSaini271/X-Clone-HTML-Tailwind-CSS-/blob/f9a49116518b38c8d3380471090259a4f624a905/img/X%20Clone.png)
 
 **Live demo:** https://x-clone-bm.netlify.app/
 
