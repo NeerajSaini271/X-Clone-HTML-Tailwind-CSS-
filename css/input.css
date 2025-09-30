@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* For Firefox */
+body,
+.first,
+.overflow-y-auto {
+  scrollbar-color: #3e4144 #16181c;
+}
